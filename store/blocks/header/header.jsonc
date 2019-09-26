@@ -1,0 +1,168 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop",
+      "header-row#2-desktop",
+      "header-row#3-desktop"
+    ]
+  },
+
+
+  "header-row#1-desktop": {
+    "children": [
+      "rich-text#contactTop",
+      "rich-text#myAccount",
+      "rich-text#myOrders",
+      "header-spacer",
+      "rich-text#facebookTop",
+      "rich-text#instagramTop",
+      "rich-text#twitterTop"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "rich-text#contactTop":{
+    "props":{
+      "text": "CENTRAL DE ATENDIMENTO **(21) 4103-3840 - NÃO TEMOS LOJA FÍSICA**"
+    }
+  },
+  "rich-text#myAccount":{
+    "props":{
+      "text": "Minha Conta"
+    }
+  },
+  "rich-text#myOrders":{
+    "props":{
+      "text": "Meus Pedidos"
+    }
+  },
+
+  "rich-text#facebookTop":{
+    "props":{
+      "text": "[![Facebook Image Topo](https://brcraft.vteximg.com.br/arquivos/facebookTop.png 'Facebook')](https://brcraft.com.br)",
+      "blockClass": "socialTop"
+    }
+  },
+  "rich-text#instagramTop":{
+    "props":{
+      "text": "[![Instagram Image Topo](https://brcraft.vteximg.com.br/arquivos/instagramTop.png 'Instragram')](https://brcraft.com.br)",
+      "blockClass": "socialTop"
+    }
+  },
+  "rich-text#twitterTop":{
+    "props":{
+      "text": "[![Twitter Image Topo](https://brcraft.vteximg.com.br/arquivos/twitterTop.png 'Twitter')](https://brcraft.com.br)",
+      "blockClass": "socialTop"
+    }
+  },
+
+
+
+
+  "header-row#2-desktop": {
+    "children": [
+      "logo#desktop",
+      "vtex.menu@2.x:menu#category-menu",
+      "header-spacer",
+      "header-spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+
+  "header-row#3-desktop":{
+    "props":{
+
+    }
+  },
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://brcraft.vteximg.com.br/arquivos/logoBrcraft.png",
+      "width": "180"
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray"
+    }
+  },
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#category-clothing",
+      "menu-item#category-decoration",
+      "menu-item#custom-sale"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "width": "70"
+    }
+  }
+}
