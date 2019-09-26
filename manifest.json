@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "store-theme",
-  "version": "3.15.1",
+  "vendor": "brcraft",
+  "name": "brcraft-theme",
+  "version": "0.00.0",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
