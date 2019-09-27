@@ -37,17 +37,20 @@
   },
   "rich-text#contactTop":{
     "props":{
-      "text": "CENTRAL DE ATENDIMENTO **(21) 4103-3840 - NÃO TEMOS LOJA FÍSICA**"
+      "text": "CENTRAL DE ATENDIMENTO **(21) 4103-3840 - NÃO TEMOS LOJA FÍSICA**",
+      "blockClass": "topText"
     }
   },
   "rich-text#myAccount":{
     "props":{
-      "text": "Minha Conta"
+      "text": "Minha Conta",
+      "blockClass": "topText"
     }
   },
   "rich-text#myOrders":{
     "props":{
-      "text": "Meus Pedidos"
+      "text": "Meus Pedidos",
+      "blockClass": "topText"
     }
   },
 
@@ -101,7 +104,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://brcraft.vteximg.com.br/arquivos/logoBrcraft.png",
-      "width": "180"
+      "width": "125"
     }
   },
 

@@ -12,3 +12,7 @@
   padding: 10px 0px;
   background-color: #F0F0F0;
 }
+
+.headerRow--menu-link {
+  height: 50px;    
+}

@@ -77,4 +77,22 @@
   .container--title .paragraph {
     line-height: 1.3em;
   }
+
+  .container--topText .paragraph{
+    color: #fff;
+    padding: 0px 20px;
+    font-size: 13px;
+    margin: 14px 0px;
+  }
+
+  .container--topText{
+    height: 100%
+  }
+  .container--topText .link{
+    color: #fff
+  }
+  .container--socialTop .image{
+    padding: 0px 5px;
+  }
+
 }
