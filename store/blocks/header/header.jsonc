@@ -43,13 +43,13 @@
   },
   "rich-text#myAccount":{
     "props":{
-      "text": "Minha Conta",
+      "text": "[Minha Conta](https://brcraft.com.br)",
       "blockClass": "topText"
     }
   },
   "rich-text#myOrders":{
     "props":{
-      "text": "Meus Pedidos",
+      "text": "[Meus Pedidos](https://brcraft.com.br)",
       "blockClass": "topText"
     }
   },
@@ -79,10 +79,11 @@
   "header-row#2-desktop": {
     "children": [
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
-      "header-spacer",
       "header-spacer",
       "search-bar",
+      "header-spacer",
+      "header-spacer",
+      "header-spacer",
       "locale-switcher",
       "login",
       "minicart"

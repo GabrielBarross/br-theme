@@ -78,18 +78,20 @@
     line-height: 1.3em;
   }
 
-  .container--topText .paragraph{
+  .container--topText .paragraph , .container--socialTop .paragraph{
     color: #fff;
-    padding: 0px 20px;
     font-size: 13px;
-    margin: 14px 0px;
+    margin: 7px 0px;
   }
-
-  .container--topText{
+  .container--topText .paragraph {
+    padding: 0px 20px;
+  }
+  .container--topText , .container--socialTop{
     height: 100%
   }
   .container--topText .link{
-    color: #fff
+    color: #fff;
+    text-decoration: none;
   }
   .container--socialTop .image{
     padding: 0px 5px;
