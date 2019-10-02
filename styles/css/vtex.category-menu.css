@@ -1,0 +1,13 @@
+.container{
+    background: #333333;
+    height: 50px;
+}
+
+.container span , .container a{
+    color: #fff;
+}
+
+.itemContainer{
+    height: 50px;
+}
+

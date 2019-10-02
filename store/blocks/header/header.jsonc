@@ -99,10 +99,14 @@
       "category-menu"
     ],
     "props":{
-      
+      "inverted": "true"
     }
   },
-
+  "category-menu":{
+    "props":{
+      "inverted": "true"
+    }
+  },
   "logo#desktop": {
     "props": {
       "title": "Logo",
