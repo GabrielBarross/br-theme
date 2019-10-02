@@ -1,0 +1,10 @@
+.title{
+    font-weight: normal;
+    padding: 10px 0px;
+    display: table;
+    margin: 0px 50px;
+    width: 90%;
+    font-size: 25px;
+    border-bottom: 2px solid #234d25;
+    color: #333333;
+}

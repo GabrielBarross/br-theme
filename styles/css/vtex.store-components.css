@@ -132,4 +132,11 @@
   .newsletter form .inputGroup .buttonContainer{
     display: inline-block;
   }
+
+  .sellingPriceValue{
+    font-size: 26px;
+    font-weight: bold;
+    color: #234d25;
+  }
+
 }

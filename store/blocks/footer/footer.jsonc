@@ -88,10 +88,49 @@
 
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "footer-spacer",
+      "flex-layout.col#footer2Column1",
+      "footer-spacer",
+      "flex-layout.col#footer2Column2",
+      "footer-spacer"
     ],
     "props": {
-      "blockClass": "payment-methods"
+      "inverted": "true",
+      "blockClass": "footerLayout2"
+    }
+  },
+  "flex-layout.col#footer2Column1":{
+    "children":[
+      "rich-text#socialTitle",
+      "flex-layout.row#socialMedia"
+    ],
+    "props":{
+      "width": "10%"
+    }
+  },
+  "flex-layout.row#socialMedia":{
+    "children":[
+
+      "rich-text#facebookTop",
+      "rich-text#instagramTop",
+      "rich-text#twitterTop"
+    ]
+  },
+  "flex-layout.col#footer2Column2":{
+    "children":[
+      "rich-text#contactTxt"
+    ]
+  },
+  "rich-text#socialTitle":{
+    "props":{
+      "text": "Redes Sociais",
+      "blockClass": "whiteLetter"
+    }
+  },
+  "rich-text#contactTxt":{
+    "props":{
+      "text": "Central de Atendimento: (21) 4103-3840 (Seg. à Sex. das 09h às 18h) Não temos loja física",
+      "blockClass": "whiteLetter"
     }
   },
 
@@ -102,14 +141,18 @@
   },
 
   "flex-layout.row#footer-3-desktop": {
-    "children": ["rich-text#footer"],
+    "children": [
+      "footer-spacer",
+      "rich-text#footer",
+      "footer-spacer"
+    ],
     "props": {
       "blockClass": "credits"
     }
   },
   "rich-text#footer": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "BR Craft Insumos Cervejeiros Ltda - Copyright ® - Todos os direitos reservados.",
       "blockClass": "footer"
     }
   },
@@ -149,7 +192,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "All stock and product photos are from photos.icons8.com",
+      "text": "BR Craft Insumos Cervejeiros Ltda - Copyright ® - Todos os direitos reservados.",
       "blockClass": "footer"
     }
   }

@@ -35,3 +35,8 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexRow--footerLayout2{
+  background: #333333;
+  margin-top: 120px;
+}

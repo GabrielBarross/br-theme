@@ -103,4 +103,15 @@
     font-weight: bold;
   }
 
+  .container--whiteLetter .paragraph{
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+
+  .container--footer .paragraph{
+    font-size: 13px;
+    color: #999;
+  }
+
 }
