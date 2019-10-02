@@ -9,5 +9,11 @@
 
 .itemContainer{
     height: 50px;
+    z-index: 999;
+}
+
+.itemContainer .itemContainer{
+    height: auto;
+    z-index: 999;
 }
 

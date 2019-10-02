@@ -5,3 +5,8 @@
 .containerImg img {
   max-width: 1520px;
 }
+
+.container{
+  max-width: 56rem;
+  margin: 0px auto;
+}
