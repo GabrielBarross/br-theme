@@ -95,8 +95,11 @@
   },
 
   "header-row#3-desktop":{
+    "children":[
+      "category-menu"
+    ],
     "props":{
-
+      
     }
   },
 

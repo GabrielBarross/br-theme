@@ -18,9 +18,9 @@
 }
 
 .newsletter {
-  background-color: #03054E;
+  background-color: #333333;
   max-width: 1528px;
-  margin: 0 auto;
+  margin: 15px auto;
 }
 
 .newsletter .container {
@@ -87,5 +87,49 @@
   .imageElement--storePrint {
     margin-bottom: 0px;
     max-height: 600px;
+  }
+
+   /* NEWSLETTER */
+   .newsletter .container{
+    padding: 10px;
+  }
+
+  .newsletter .form{
+    margin: 0px;
+    max-width: 100%;
+  }
+
+  .newsletter .form .label{
+    max-width: 600px;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .newsletter form .inputGroup{
+    width: 500px;
+    display: inline-block;
+    padding-top: 4px;
+    border-bottom: 0px;
+  }
+
+  .newsletter form .inputGroup label{
+    width: 50%;
+    display: inline-block;
+
+  }
+
+  .newsletter form .inputGroup input{
+    background: #fff;
+    border-radius: 0px;
+    padding: 5px;
+    color: #000;
+  }
+
+  .newsletter form .inputGroup input::placeholder{
+    color: #A9A9A9;
+  }
+
+  .newsletter form .inputGroup .buttonContainer{
+    display: inline-block;
   }
 }

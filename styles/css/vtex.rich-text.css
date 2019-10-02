@@ -96,5 +96,11 @@
   .container--socialTop .image{
     padding: 0px 5px;
   }
+  .container--footerTitle .paragraph{
+    margin: 0px;
+    color: #234d25;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
 }

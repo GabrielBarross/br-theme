@@ -1,0 +1,9 @@
+.menuContainer--info-menu .menuItem:first-child .styledLink{
+    color: #234d25;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menuContainer--info-menu .styledLink{
+    font-size: 12px;
+}
