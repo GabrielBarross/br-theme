@@ -138,5 +138,7 @@
     font-weight: bold;
     color: #234d25;
   }
-
+  .infoCardContainer{
+    height: 100%;
+  }
 }

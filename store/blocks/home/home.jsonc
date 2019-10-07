@@ -1,7 +1,7 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home",
+      "flex-layout.row#topRow",
       /* You can make references to blocks defined in other files.
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       "shelf#home",
@@ -12,6 +12,37 @@
     ]
   },
 
+  "flex-layout.row#topRow":{
+    "children":[
+      "flex-layout.col#topRow-colOne",
+      "flex-layout.col#topRow-colTwo",
+      "flex-layout.col#topRow-colThree"
+    ]
+  },
+  "flex-layout.col#topRow-colOne":{
+    "children":[
+      "info-card#home1"
+    ],
+    "props":{
+      "width": "20%"
+    }
+  },
+  "flex-layout.col#topRow-colTwo":{
+    "children":[
+      "carousel#home"
+    ],
+    "props":{
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#topRow-colThree":{
+    "children":[
+      "info-card#home2"
+    ],
+    "props":{
+      "width": "20%"
+    }
+  },
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -30,6 +61,19 @@
       "showDots": true
     }
   },
+  "info-card#home1":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center"
+    }
+  },
+  "info-card#home2":{
+    "props":{
+      "isFullModeStyle": true,
+      "textPosition": "center"
+    }
+  },
+
 
   "shelf#home": {
     "blocks": ["product-summary.shelf"],
