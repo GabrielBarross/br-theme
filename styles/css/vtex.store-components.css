@@ -143,4 +143,9 @@
     position: relative;
     margin: 30px;
   }
+
+  .skuSelectorName{
+    color: #333333;
+  }
+
 }

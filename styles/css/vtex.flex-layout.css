@@ -40,3 +40,12 @@
   background: #333333;
   margin-top: 120px;
 }
+
+.flexColChild--productInfo :global(.vtex-button){
+  padding: 15px;
+  width: 350px;
+}
+
+.flexColChild--productInfo .stretchChildrenWidth{
+  justify-content: left;
+}
