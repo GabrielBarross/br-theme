@@ -1,0 +1,20 @@
+{
+    "store.custom#institutional1": {
+        "blocks": [
+        "rich-text#institutionalTitle",
+        "rich-text#institutionalText"
+        ]
+    },
+
+    "rich-text#institutionalTitle":{
+        "props":{
+            "text":"Seu Título Aqui",
+            "blockClass":"InfoTitle"
+        }
+    },
+    "rich-text#institutionalText":{
+        "props":{
+            "text": "Seu Texto aqui"
+        }
+    }
+}
