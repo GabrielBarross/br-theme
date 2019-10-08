@@ -3,17 +3,22 @@
     height: 50px;
 }
 
-.container span , .container a{
-    color: #fff;
-}
-
 .itemContainer{
     height: 50px;
-    z-index: 999;
 }
 
 .itemContainer .itemContainer{
     height: auto;
     z-index: 999;
+}
+
+.firstLevelLink{
+    color: #333333;
+    font-weight: bold
+}
+
+.secondLevelLink{
+    color: #333333;
+    display: none;
 }
 

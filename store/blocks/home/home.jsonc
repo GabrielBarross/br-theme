@@ -17,6 +17,7 @@
       "flex-layout.col#topRow-colOne",
       "flex-layout.col#topRow-colTwo",
       "flex-layout.col#topRow-colThree"
+      
     ]
   },
   "flex-layout.col#topRow-colOne":{
@@ -24,7 +25,7 @@
       "info-card#home1"
     ],
     "props":{
-      "width": "20%"
+      "width": "25%"
     }
   },
   "flex-layout.col#topRow-colTwo":{
@@ -32,7 +33,7 @@
       "carousel#home"
     ],
     "props":{
-      "width": "60%"
+      "width": "50%"
     }
   },
   "flex-layout.col#topRow-colThree":{
@@ -40,7 +41,7 @@
       "info-card#home2"
     ],
     "props":{
-      "width": "20%"
+      "width": "25%"
     }
   },
   "carousel#home": {
