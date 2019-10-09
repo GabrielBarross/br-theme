@@ -114,4 +114,17 @@
     color: #999;
   }
 
+  .heading{
+    font-weight: 400;
+  }
+
+  .container--InfoTitle , .container--InfoText{
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  .container--InfoTitle{
+    border-bottom: 2px solid #234d25;
+  }
+
 }

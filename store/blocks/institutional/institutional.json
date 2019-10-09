@@ -14,7 +14,8 @@
     },
     "rich-text#institutionalText":{
         "props":{
-            "text": "Seu Texto aqui"
+            "text": "Seu Texto aqui",
+            "blockClass":"InfoText"
         }
     }
 }
