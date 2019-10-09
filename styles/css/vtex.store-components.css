@@ -148,4 +148,17 @@
     color: #333333;
   }
 
+  .infoCardHeadline{
+    font-size: 25px;
+  }
+
+  .infoCardCallActionContainer{
+    margin: 0px;
+  }
+
+  .infoCardTextContainer{
+    margin: 0px;
+    width: 100%;
+  }
+
 }

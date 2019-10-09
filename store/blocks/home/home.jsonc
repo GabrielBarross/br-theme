@@ -20,6 +20,7 @@
       
     ]
   },
+
   "flex-layout.col#topRow-colOne":{
     "children":[
       "info-card#home1"
