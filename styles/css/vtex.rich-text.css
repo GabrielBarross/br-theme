@@ -56,6 +56,18 @@
   font-size: 28px;
   font-weight: 700;
 }
+.container--paymentImage {
+  display: flex;
+  justify-content: center;
+}
+.container--paymentImage .image{
+  max-width: 200px;
+}
+
+.container--footer{
+  font-size: 12px;
+  text-align: center
+}
 
 @media only screen and (min-width: 640px) {
   .container--question .strong {
@@ -131,8 +143,11 @@
     margin: 0px;
   }
 
+  .container--paymentImage{
+    justify-content: left;
+  }
   .container--paymentImage .image{
-    width: 170px;
+    max-width: 170px;
   }
 
 }

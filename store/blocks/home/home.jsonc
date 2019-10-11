@@ -23,7 +23,7 @@
 
   "flex-layout.col#topRow-colOne":{
     "children":[
-      "info-card#home1"
+      //"info-card#home1"
     ],
     "props":{
       "width": "25%"
@@ -39,7 +39,7 @@
   },
   "flex-layout.col#topRow-colThree":{
     "children":[
-      "info-card#home2"
+      //"info-card#home2"
     ],
     "props":{
       "width": "25%"
@@ -85,7 +85,7 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"
@@ -151,7 +151,7 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"
@@ -166,7 +166,7 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 4,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "Top sellers"

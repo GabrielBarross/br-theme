@@ -8,3 +8,11 @@
     font-size: 12px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 640px){
+
+    .menuContainer--info-menu .menuItem{
+        display: flex;
+        justify-content: center;
+    }
+}

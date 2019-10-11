@@ -174,8 +174,9 @@
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks",
+      "vtex.menu@2.x:menu#Products",
+      "rich-text#paymentTypes",
+      //"accepted-payment-methods",
       "rich-text#footer-mobile"
     ],
     "props": {
