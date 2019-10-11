@@ -165,12 +165,186 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#baseMalt",
+      "menu-item#biscuitMalt",
+      "menu-item#caramelMalt",
+      "menu-item#smokeMalt",
+      "menu-item#specialMalt",
+      "menu-item#toastedMalt",
+      "menu-item#cereals",
+      "menu-item#hop",
+      "menu-item#yeast",
+      "menu-item#inputs",
+      "menu-item#equipments"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "mobileMenu"
+    }
+  },
+  "menu-item#baseMalt":{
+    "props": {
+      "id": "menu-item-category-base-malt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Maltes Base",
+        "text": "Maltes Base"
+      }
+    }
+  },
+  "menu-item#biscuitMalt":{
+    "props": {
+      "id": "menu-item-category-biscuit-malt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Maltes Biscuit",
+        "text": "Maltes Biscuit"
+      }
+    }
+  },
+  "menu-item#caramelMalt":{
+    "props": {
+      "id": "menu-item-category-caramel-malt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Maltes Caramelo",
+        "text": "Maltes Caramelo"
+      }
+    }
+  },
+  "menu-item#smokeMalt":{
+    "props": {
+      "id": "menu-item-category-smoke-malt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Maltes Defumados",
+        "text": "Maltes Defumados"
+      }
+    }
+  },
+  "menu-item#specialMalt":{
+    "props": {
+      "id": "menu-item-category-special-malt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Maltes Especiais",
+        "text": "Maltes Especiais"
+      }
+    }
+  },
+  "menu-item#toastedMalt":{
+    "props": {
+      "id": "menu-item-category-toasted-malt",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Maltes Torrados",
+        "text": "Maltes Torrados"
+      }
+    }
+  },
+  "menu-item#cereals":{
+    "props": {
+      "id": "menu-item-category-cereals",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "cereais não maltados",
+        "text": "Cereais não maltados"
+      }
+    }
+  },
+  "menu-item#hop":{
+    "props": {
+      "id": "menu-item-category-hop",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Lúpulo",
+        "text": "Lúpulo"
+      }
+    }
+  },
+  "menu-item#yeast":{
+    "props": {
+      "id": "menu-item-category-yeast",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Fermentos",
+        "text": "Fermentos"
+      }
+    }
+  },
+  "menu-item#inputs":{
+    "props": {
+      "id": "menu-item-category-inputs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Insumos",
+        "text": "Insumos"
+      }
+    }
+  },
+  "menu-item#equipments":{
+    "props": {
+      "id": "menu-item-category-equipments",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Equipamentos",
+        "text": "Equipamentos"
+      }
     }
   },
 

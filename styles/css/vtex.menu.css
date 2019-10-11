@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+.menuContainer--mobileMenu .styledLinkContainer{
+    padding: 10px;
+}
+
 @media only screen and (max-width: 640px){
 
     .menuContainer--info-menu .menuItem{
