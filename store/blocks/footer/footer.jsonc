@@ -49,8 +49,8 @@
   "flex-layout.col#paymentColumn":{
     "children":[
       "rich-text#titlePayments",
-      "accepted-payment-methods"
-      //"rich-text#paymentTypes"
+      //"accepted-payment-methods"
+      "rich-text#paymentTypes"
     ]
   },
   "rich-text#titlePayments":{
@@ -61,7 +61,8 @@
   },
   "rich-text#paymentTypes":{
     "props":{
-      "text":"[Imagens de Pagamento Aceito](https://brcraft.vteximg.com.br/arquivos/acceptedPayment.png)"
+      "text":"![Imagens de Pagamento Aceito](https://brcraft.vteximg.com.br/arquivos/acceptedPayment.png)",
+      "blockClass":"paymentImage"
     }
   },
 
@@ -82,7 +83,7 @@
   },
   "rich-text#imageSeals":{
     "props":{
-      "text": "[Imagem do Selo](https://brcraft.vteximg.com.br/arquivos/clearsale1.png)"
+      "text": "![Imagem do Selo](https://brcraft.vteximg.com.br/arquivos/clearsale1.png)"
     }
   },
 

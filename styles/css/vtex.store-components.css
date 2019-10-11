@@ -161,4 +161,11 @@
     width: 100%;
   }
 
+  .productDescriptionContainer h2{
+    padding: 10px;
+    background: #333333;
+    color: #fff;
+    border-radius: 10px;
+  }
+
 }

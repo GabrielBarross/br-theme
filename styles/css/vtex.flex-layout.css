@@ -43,7 +43,7 @@
 
 .flexColChild--productInfo :global(.vtex-button){
   padding: 15px;
-  width: 350px;
+  max-width: 350px;
 }
 
 .flexColChild--productInfo .stretchChildrenWidth{

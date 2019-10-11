@@ -16,3 +16,7 @@
 .headerRow--menu-link {
   height: 35px;    
 }
+
+.headerRowBackground--main-header{
+  border-bottom: 1px solid #333333;
+}

@@ -127,4 +127,12 @@
     border-bottom: 2px solid #234d25;
   }
 
+  .container--paymentImage .paragraph{
+    margin: 0px;
+  }
+
+  .container--paymentImage .image{
+    width: 170px;
+  }
+
 }
