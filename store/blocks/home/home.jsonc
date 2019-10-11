@@ -26,7 +26,8 @@
       //"info-card#home1"
     ],
     "props":{
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "backgroundHome1"
     }
   },
   "flex-layout.col#topRow-colTwo":{
@@ -42,7 +43,8 @@
       //"info-card#home2"
     ],
     "props":{
-      "width": "25%"
+      "width": "25%",
+      "blockClass": "backgroundHome2"
     }
   },
   "carousel#home": {

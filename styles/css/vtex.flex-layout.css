@@ -49,3 +49,35 @@
 .flexColChild--productInfo .stretchChildrenWidth{
   justify-content: left;
 }
+
+.flexCol--backgroundHome1::after , .flexCol--backgroundHome2::after  {
+  content: '';
+  background-image: url(https://brcraft.vteximg.com.br/arquivos/Homebackground3.png);
+  background-position: bottom;
+  background-size: 120px;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 160px;
+  margin-top: 135px;
+}
+
+.flexCol--backgroundHome1::after{
+  /*box-shadow: inset -5px 0 10px -1px rgba(0,0,0,0.5);*/
+}
+
+.flexCol--backgroundHome2::after{
+  /*box-shadow: inset -5px 0 10px -1px rgba(0,0,0,0.5);*/
+}
+
+@media only screen and (max-width: 940px) {
+  .flexCol--backgroundHome1 , .flexCol--backgroundHome2{
+    display: none
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .flexCol--backgroundHome1::after , .flexCol--backgroundHome2::after {
+    min-height: 100px;
+    margin-top: 105px;
+  }
+}
